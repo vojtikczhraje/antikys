@@ -137,17 +137,17 @@ git clone https://github.com/vojtikczhraje/antikys.git
 
 2. Navigate to the C source directory
 ```cmd
-cd antikys/c_version
+cd antikys/
 ```
 
 3. Build the source code
 ```cmd
-gcc -o antikys antikys.c
+gcc -o antikys.exe antikys.c
 ```
 
 4. Run it
 ```cmd
-./antikys
+./antikys.exe
 ```
 
 ## 🏭 Build
@@ -160,4 +160,4 @@ pyinstaller --onefile --noconsole antikys.py
 ### C Version
 - Build using any C compiler. Example using GCC:
 ```cmd
-gcc -o antikys antikys.c
+gcc -o antikys.exe antikys.c
