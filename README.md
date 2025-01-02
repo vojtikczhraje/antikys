@@ -5,7 +5,7 @@
 -----
 
 
-> [!WARNING]  
+> [!WARNING]
 > This tool is massive, more than low 🤏 taper 💇‍♂️ fade 👨🏿‍🦲👨🏾‍🦲👨🏽‍🦲👨🏼‍🦲
 
 ## 🍭 Usage
@@ -113,8 +113,7 @@
 
 </details>
 
-
-## 🤓 Usage
+## 🤓 Python Usage
 1. Clone the repository
 ```cmd
 git clone https://github.com/vojtikczhraje/antikys.git
@@ -130,8 +129,35 @@ pip install -r .\requirements.txt -U
 py .\antikys.py
 ```
 
-## 🏭 Build 
+## 🤓 C Usage
+1. Clone the repository
+```cmd
+git clone https://github.com/vojtikczhraje/antikys.git
+```
+
+2. Navigate to the C source directory
+```cmd
+cd antikys/c_version
+```
+
+3. Build the source code
+```cmd
+gcc -o antikys antikys.c
+```
+
+4. Run it
+```cmd
+./antikys
+```
+
+## 🏭 Build
+### Python Version
 - Tested only on Windows
 ```cmd
 pyinstaller --onefile --noconsole antikys.py
 ```
+
+### C Version
+- Build using any C compiler. Example using GCC:
+```cmd
+gcc -o antikys antikys.c
