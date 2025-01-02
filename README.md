@@ -133,5 +133,5 @@ py .\antikys.py
 ## 🏭 Build 
 - Tested only on Windows
 ```cmd
-pyinstaller --onefile antikys.py
+pyinstaller --onefile --noconsole antikys.py
 ```
