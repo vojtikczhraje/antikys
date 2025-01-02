@@ -57,7 +57,7 @@ int main()
                     for (int i = 0; i < BAD_WORD_AMOUNT; i++)
                     {
                         // catch naughty
-                        if (strcmp(buffer, badWords[i]) == 0)
+                        if (strstr(buffer, badWords[i]) != NULL)
                         {
                             // delete typed chars
                             for(int i = 0; i < strlen(buffer); i++)
@@ -113,6 +113,8 @@ void typeString(const char* str) {
         // releasy
         ip.ki.dwFlags = KEYEVENTF_KEYUP;
         SendInput(1, &ip, sizeof(INPUT));
+
+        Sleep(20);
     }
 }
 
