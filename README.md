@@ -15,9 +15,9 @@
 
 ## 😨 Features
 - Removes swear words
+- Sometimes doesn't work (somebody fix it)
 - To bypass you need to misstype (it's a feature trust)
 - Lowkey bloated, when playing games average of 50 000 000 cycles deltas 😿
-- That's it
 
 <details>
 <summary> Words that are being targetted</summary>
