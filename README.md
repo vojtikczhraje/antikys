@@ -20,7 +20,8 @@
 - Lowkey bloated, when playing games average of 50 000 000 cycles deltas 😿
 
 <details>
-<summary> Words that are being targetted</summary>
+<summary> Words that are being targetted</summary>\
+    - ChatGPT ahh words <br />
     - kys <br />
     - nigg <br />
     - fucking <br />
